@@ -1,0 +1,552 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar{
+    position: fixed;
+    padding: 10px;
+    top: -900;
+    width: 22%;
+    height:84%;
+    background-color: #121212;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: -360px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+
+}
+.head-logo i{
+    font-size: 36px;
+    padding: 20px;
+    top: -885px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.home-logo {
+    font-size: 25px;
+    padding: 7px;
+    background-color: #242424;
+    border-radius: 100px;
+    width: 46px;
+    height: 50px;
+    margin-left: 500px;
+    position: relative;
+    left: -720px;
+    translate: 309px;
+    top: -65px;
+    cursor: pointer;
+  
+
+
+}
+.home-logo:hover{
+    transform: scale(1.1,1.05);
+}
+.home-logo:active {
+    transform: scale(1.0); 
+    background: #141313;
+}
+
+
+.prem{
+    position: relative;
+    top: -156px;
+    left: 1240px;
+   display: flex;
+    font-size: 20px;
+    color: #a5a4a4;
+    margin-right: 100p;
+    gap: 10px;
+    cursor: pointer;
+    
+
+}
+.prem:hover {
+    transform: scale(1.001,1.0);
+    color: #fff;
+    transition: 0.5;
+   
+
+
+}
+
+.prem:active{ 
+    opacity: 0.7;
+
+}
+
+.baixar {
+    position: relative;
+    top: -204px;
+    left: 1408px;
+   display: flex;
+    font-size: 20px;
+    color: #a5a4a4;
+    margin-right: 100p;
+    gap: 10px;
+    cursor: pointer;
+
+
+}
+
+.baixar:hover{
+    transform: scale(1.001,1.0);
+    color: #fff;
+    transition: 0.5;
+
+}
+
+.baixar:active{ 
+    opacity: 0.7;
+
+}
+
+.sup {
+    position: relative;
+    top: -180px;
+    left: 1330px;
+   display: flex;
+    font-size: 20px;
+    color: #a5a4a4;
+    margin-right: 100p;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.sup:hover{
+    transform: scale(1.001,1.0);
+    color: #fff;
+    transition:0.5;
+
+}
+
+.sup:active{ 
+    opacity: 0.7;
+
+}
+
+.inst {
+    position: relative;
+    padding: 5px;
+    top: -229px;
+    left: 1540px;
+    display: flex;
+    font-size: 21px;
+    color: #9c9797;
+    margin-right: 100px; 
+    gap: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /*  transições suaves */
+}
+
+.inst:hover {
+    transform: scale(1.0); /* Aumenta levemente o tamanho */
+    color: #fff;
+}
+
+.inst:active{ 
+    opacity: 0.7;
+
+}
+
+.inscre {
+    position: relative;
+    padding: 25px;
+    top: -282px;
+    left: 1720px;
+    display: flex;
+    font-size: 21px;
+    color: #9c9797;
+    margin-right: 100px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.inscre:hover {
+    
+    color: #ffffff; 
+}
+
+.inscre:active{ 
+    opacity: 0.7;
+
+}
+
+
+/* Ajuste do botão "Entrar" */
+.botao-container {
+    position: relative;
+    top: -349px; /* Ajuste para posicionamento correto */
+    left: 1850px;
+}
+
+.but {
+    background-color: #fff;
+    color: #000;
+    width: 130px;
+    border: none;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 17px;
+}
+
+.but:hover {
+    transform: scale(1.03,1.01);
+}
+.but:active {
+    transform: scale(0.99); /* Encolhe um pouco */
+    background: #ccc;
+
+}
+/*.seta {
+    position: relative;
+    top: -379px;
+    left: 1494px;
+    display: flex;
+    font-size: 40px;
+    color: #ffffff;
+}*/
+
+
+
+
+.nav-library {
+    color: #c9c3c3; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin-top: -15px;
+
+}
+.nav-library i:hover,.nav-library p:hover{
+    transform: scale(1.01,1.0);
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+
+
+
+.nav-library i, .nav-library p {
+    color: #ebe4e4;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.mais {
+    background-color: transparent;
+    color: #c9c3c3;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 230px;
+    font-size: 27px;
+    justify-content: center;
+    padding: 10px 20px; 
+    border-radius: 50px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.mais:hover {
+    background-color: #242424;
+    transform: scale(0.65); /* Diminui o tamanho do fundo */
+}
+
+.mais:active{
+    background-color: #000;
+}
+
+.nav-playlist{
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+   
+
+}
+
+.nav-podcast{
+    background-color:#242424;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 25px;
+    
+    
+}
+
+.nav-playlist button, .nav-podcast button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top:16px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+
+}
+
+.nav-playlist button:hover, .nav-podcast button:hover{
+    transform: scale(1.05,1.02);
+
+}
+
+.nav-playlist button:active, .nav-podcast button:active {
+    transform: scale(0.99); /* Encolhe um pouco */
+    background: #ccc;
+
+}
+
+.nav-playlist p, .nav-podcast p {
+    font-size: 14px;
+
+}
+
+.nav-footer{
+    margin-top: auto;
+    padding: 10px;
+
+}
+.cok{
+    color: #ffffff;
+    text-decoration: #a7a7a7;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    
+
+}
+.cok:hover{
+    text-decoration: underline;
+}
+
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: #a7a7a7;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    
+}
+
+.nav-leang-button  {
+    position: relative;
+    top: 60px;
+    left: 15px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 34px;
+    width: 210px;
+    padding: 0px 0px;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+.nav-leang-button:hover {
+    transform: scale(1.02,1.02); 
+}
+
+.nav-leang-button:active {
+    transform: scale(0.99); /* Encolhe um pouco */
+    color: #ccc;
+}
+
+
+
+main {
+    background: linear-gradient( 90deg, #1a1818, #000000);
+    padding: 10px;
+    flex-grow: 10;
+    overflow-y: auto;
+    top:-359px ;
+    position: relative;
+    border-radius: 10px;
+    left: 480px;
+    margin-bottom: 161px;
+
+}
+
+.search-bar {
+    color: #fffefe;
+    margin-left: auto;
+    position: relative;
+    right: 1420px;
+    top: -115px;
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 8px 16px;
+    border-radius: 30px;
+    width: 550px;
+    height: 55px;
+    cursor: pointer;
+    
+}
+
+.search-bar input {
+    background-color: transparent;
+    color: #dfcdcd;
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+    outline: none;
+}
+.search-bar input:hover{
+    opacity: 50%;
+}
+
+
+.artists-grid, .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2px;  /* Diminui o espaço entre as imagens */
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.artist-card, .album-card {
+    padding: 8px; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    transition:  0.2s ease; 
+    
+}
+
+.artist-card:hover, .album-card:hover {
+    background: #242424;
+    border-radius: 9px;
+    
+}
+
+.artist-card:active, .album-card:active {
+    background-color: #000000;
+}
+
+.album-card img, .artist-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    max-width: 250px;  
+    max-height: 240px; 
+}
+
+.album-card img{
+    border-radius: 10px;
+
+}
+.artist-card h3, .album-card h3 {
+    font-size: 17px; 
+    margin-top: 8px;
+    text-align: left;
+}
+
+.artist-card h3:hover, .album-card h3:hover {
+    text-decoration: underline;
+}
+
+.artist-card p, .album-card p {
+    font-size: 16px;
+    color: #b7b3b6;
+    text-align: left;
+    margin-top: 3px;
+}
+
+.content {
+    margin-top: 40px;
+}
+.content h2 {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.content h2:hover{
+    text-decoration: underline;
+
+}
+.banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #AF2896, #509BF5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 16px;
+    cursor: pointer;
+    
+}
+
+.banner h2{
+    font-size: 14px;
+
+}
+
+.banner p {
+    font-size: 10px;
+
+}
+.banner button {
+    border-radius: 30px;
+    color: #000;
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.banner button:hover {
+    transform: scale(1.02,1.02);
+
+}
+.banner button:active {
+    transform: scale(0.99); /* Encolhe um pouco */
+    background: #ccc;
+
+}
